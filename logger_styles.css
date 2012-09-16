@@ -1,0 +1,59 @@
+ 
+#logger {
+    font-size : 1em;
+}
+
+.logger-controls input {
+    margin-right : 8px;
+}
+
+.logger-header,.logger-body {
+    padding : 8px;
+    border : 1px solid lightgrey;
+    border-right : none;
+}
+    
+.logger-body {
+    border : 1px solid lightgrey;
+    border-left : none;
+}
+
+.logger-item .ui-icon {
+    display : inline-block;
+    position : relative;
+    top : 3px;
+    cursor : pointer;
+}
+
+.logger-body.closed .logger-data {
+    display : none;
+}
+
+.logger-header {
+    text-transform : capitalize; 
+}
+
+.ui-logger .logger-level-10 .logger-header {
+    background-color : lightblue;
+}
+.ui-logger .logger-level-20 .logger-header {
+    background-color : whitesmoke;
+}
+.ui-logger .logger-level-30 .logger-header {
+    background-color : lightcoral;
+}
+.ui-logger .logger-level-40 .logger-header {
+    background-color : darkred;
+    color : white;
+}
+.ui-logger .logger-level-50 .logger-header {
+    background-color : darkred;
+    color : white;
+}
+.ui-logger .logger-level-50 .logger-body {
+    color : red;
+}
+
+.no_data {
+    display : none !important;
+}
